@@ -1,0 +1,7 @@
+{
+
+    "Owner" : "Oussama A. Belaiche" , 
+    "Description" : "N2V is a cybersecurity tool designed to automate the process of identifying vulnerabilities based on Nmap scan results." , 
+    "Version" : "0.1" , 
+    "Github" : "https://github.com/Oussama-A-Belaiche"
+}
