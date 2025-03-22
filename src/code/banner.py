@@ -4,8 +4,7 @@ import json
 import os 
 
 
-confi_path = os.path.join(os.path.dirname(__file__) , "..\\config\\config.json")
-
+confi_path = os.path.join(os.path.dirname(__file__) , ".." ,"config" , "config.json")
 
 
 def get_banner() :

@@ -84,5 +84,16 @@ def verify_targets(targets, user_agent):
     for t in Threads:
         t.join()
 
-    print(f"\n{'':<10}[Info]: Verification completed.")
-    print(f"{'':<10}{validated}")
+
+    print(f"\n{'':<10}[Info]: Validated targets ")
+    for k ,v  in validated.items() : 
+        if k == "Domain names" : 
+            for t in  v : 
+                print (f"{'':<10}{t[0]} : {t[1]}")
+        else  :
+            for t in  v : 
+                print (f"{'':<10}{t[0]}")
+    
+    return validated
+
+
