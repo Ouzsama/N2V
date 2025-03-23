@@ -1,2 +1,5 @@
-vulns  
-nmap 
+nmap
+requests
+tqdm
+tabulate
+python-nmap

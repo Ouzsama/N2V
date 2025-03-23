@@ -26,7 +26,7 @@ def get_banner() :
         |   ' ;.    ;  /  ;  /   \   \  \| |     Developed by {config["Owner"]}
         |   | | \   | /  /  /-,   \   \  ' |     Github : {config["Github"]}
         |   : |  ; .'/  /  /.`|    \   \   |     
-        |   | '`--'./__;      |     \   `  |     Visit or follow me for more ! 
+        |   | '`--'./__;      |     \   `  |     Follow me for more tools and updates!
         |   : |    |   :    .'       \   \ |
         |   |.'    ;   | .'           '---" 
         '---'      `---'                    
