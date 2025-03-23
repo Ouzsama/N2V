@@ -46,7 +46,7 @@ def nmap(domain, ip):
         print("\n[Error]: Nmap not found. Please install it and try again.")
         sys.exit(1)
 
-    command = ["nmap", "-F", "--open", "-sV", "--stats-every", "3s", ip]
+    command = ["nmap", "-Pn", "-p-", "--open", "-sV", "--stats-every", "3s", ip]
 
     try:
         process = subprocess.Popen(
