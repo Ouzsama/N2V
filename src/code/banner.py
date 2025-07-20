@@ -15,13 +15,13 @@ def get_banner() :
 
         with open (confi_path , "r") as file : config = json.load(file)
 
-        banner = f""" 
+        banner = rf""" 
                 ,--.                       
                ,--.'|    ,----,             
            ,--,|  | |  .'   .' \       ,---.
         ,`--.'`|  | :,----,'    |     /__./|
         |   :  |  | ||    |  .  ;,---.;  | |     {config["Description"]}
-        |   |   \ | :|    |.'  //___/ \  | |     Version {config["Version"]}
+        |   |   \ | :|    |.'  //___/ \  | |     
         |   : '  '; |`----'/  ; \   \  \ | |
         |   ' ;.    ;  /  ;  /   \   \  \| |     Developed by {config["Owner"]}
         |   | | \   | /  /  /-,   \   \  ' |     Github : {config["Github"]}
@@ -33,7 +33,7 @@ def get_banner() :
 
         """ 
     except FileNotFoundError  : 
-        banner = f""" 
+        banner = rf""" 
                 ,--.                       
                ,--.'|    ,----,             
            ,--,|  | |  .'   .' \       ,---.
