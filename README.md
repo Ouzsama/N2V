@@ -57,9 +57,9 @@ python3 n2v.py -t example.com --vulners-api YOUR_API_KEY
 📌 **Execution Result:**  
 Two target execution results:  
 
-![Execution Result 1](src/assets/n2vimage.png)  
-![Execution Result 2](src/assets/n2vimage2.png)  
-![Execution Result 3](src/assets/n2vimage3.png)  
+![Execution Result 1](./src/assests/n2vimage.png)  
+![Execution Result 2](./src/assests/n2vimage2.png)  
+![Execution Result 3](./src/assests/n2vimage3.png)  
 
 ---
 
@@ -67,8 +67,7 @@ Two target execution results:
 ```bash
 python3 n2v.py -t example.com --user-agent "Mozilla/5.0"
 ```
-📌 **Execution Result:**  
-*(Insert image here)*  
+
 
 ---
 
